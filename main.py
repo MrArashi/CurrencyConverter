@@ -5,6 +5,7 @@ from ui import Ui_MainWindow
 from currency_converter import CurrencyConverter
 
 
+
 class CurrencyConv(QtWidgets.QMainWindow):
     def __init__(self):
         super(CurrencyConv, self).__init__()
@@ -18,7 +19,7 @@ class CurrencyConv(QtWidgets.QMainWindow):
         self.ui.input_currency.setPlaceholderText('Из валюты:')
         self.ui.input_amount.setPlaceholderText('У меня есть:')
         self.ui.output_currency.setPlaceholderText('В валюту:')
-        self.ui.output_amount.setPlaceholderText('Я получу:')        
+        self.ui.output_amount.setPlaceholderText('Я получу хуев в жопу:')
         self.ui.pushButton.clicked.connect(self.converter)
 
     def converter(self):
